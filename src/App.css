@@ -1,0 +1,15 @@
+body {
+  overflow: hidden;
+}
+
+.panel {
+  position: fixed;
+  bottom: 25px;
+  z-index: 100;
+}
+
+.content {
+  margin-bottom: 70px;
+  overflow-y: scroll;
+  max-height: 600px;
+}
